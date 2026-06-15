@@ -1,28 +1,28 @@
 class Bb < Formula
   desc "A CLI for Bitbucket Server / Bitbucket Data Center"
   homepage "https://github.com/vriesdemichael/bitbucket-server-cli"
-  version "1.35.1"
+  version "1.35.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.1/bb_1.35.1_darwin_arm64.tar.gz"
-      sha256 "7f94b3fd44124a8415b92a555f951463f9f90c55ece0c71c45f9eb06c522754a"
+      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.2/bb_1.35.2_darwin_arm64.tar.gz"
+      sha256 "5315dbf24a16e4689694e4dc834c6bb2f649c89d44e42fb9cce0ec080932c34b"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.1/bb_1.35.1_darwin_amd64.tar.gz"
-      sha256 "b5dbec2890b1800ca038384002d16ff81fae507c8b63eed745b672016ef35322"
+      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.2/bb_1.35.2_darwin_amd64.tar.gz"
+      sha256 "7f7cffa4dc85f3eaaeb4d3190043bc430902f87413c2672da6f38caeffa6ef31"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.1/bb_1.35.1_linux_arm64.tar.gz"
-      sha256 "7698031c8af13ff9c3cca7b9baab35a4b4ef3f1d7b5178a96f61cc627825d0a9"
+      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.2/bb_1.35.2_linux_arm64.tar.gz"
+      sha256 "4ea74e3abb34dc3a2aadf80d7939cffb89e219ee3c17a27488e07ad0ad09d2c5"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.1/bb_1.35.1_linux_amd64.tar.gz"
-      sha256 "0aa5ee9fa17064fd64a009e552fb982e9ae8c9c2b7958ca23b3bc9eb2dcfe36b"
+      url "https://github.com/vriesdemichael/bitbucket-server-cli/releases/download/v1.35.2/bb_1.35.2_linux_amd64.tar.gz"
+      sha256 "f1d86f16c4468808336985ff348e6e957e49f922f56111622f1f05ae571bbba2"
     end
   end
 
