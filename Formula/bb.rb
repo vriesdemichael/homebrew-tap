@@ -1,28 +1,28 @@
 class Bb < Formula
   desc "A CLI for Bitbucket Server / Bitbucket Data Center"
   homepage "https://github.com/vriesdemichael/bitbucket-data-center-cli"
-  version "2.9.0"
+  version "2.9.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.0/bb_2.9.0_darwin_arm64.tar.gz"
-      sha256 "82599396135f90b1a04c6a6acf496ccc4b296a5959c9a07712128ade4de244e7"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_darwin_arm64.tar.gz"
+      sha256 "3e39cc52940f0813e2294906a32c303581d41593055a51cb18731280585a474d"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.0/bb_2.9.0_darwin_amd64.tar.gz"
-      sha256 "532af0c79b235e52d6eaeef7151aa76dc325987f345e67c067854166b5ba612f"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_darwin_amd64.tar.gz"
+      sha256 "04b72131e126602c85160803a8b69488cf30082ffbeda278652820ed5e16e8ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.0/bb_2.9.0_linux_arm64.tar.gz"
-      sha256 "eeb05272c7168aa18dfc4d1b417215c1a256966253cf10388550f341d7c42f6b"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_linux_arm64.tar.gz"
+      sha256 "dc2f6be864e900b559888bac370df3f4edd2eada65da23416b80d5d6abc053c3"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.0/bb_2.9.0_linux_amd64.tar.gz"
-      sha256 "207ba89fc2b66211faf865ed8c183c3dfc542b0836215f058cd23c6fee2ebb5b"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_linux_amd64.tar.gz"
+      sha256 "46da138891f2419cf8794e4e030a7cc88bebf826be9e8ee961c9573f5bd6cce6"
     end
   end
 
