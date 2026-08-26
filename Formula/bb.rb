@@ -1,28 +1,28 @@
 class Bb < Formula
   desc "A CLI for Bitbucket Server / Bitbucket Data Center"
   homepage "https://github.com/vriesdemichael/bitbucket-data-center-cli"
-  version "2.9.1"
+  version "2.10.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_darwin_arm64.tar.gz"
-      sha256 "3e39cc52940f0813e2294906a32c303581d41593055a51cb18731280585a474d"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.10.0/bb_2.10.0_darwin_arm64.tar.gz"
+      sha256 "752fde55ca3e5273d93af0fba50a9ce80714d5780629e3b46b3a243f9e9d1c20"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_darwin_amd64.tar.gz"
-      sha256 "04b72131e126602c85160803a8b69488cf30082ffbeda278652820ed5e16e8ca"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.10.0/bb_2.10.0_darwin_amd64.tar.gz"
+      sha256 "71db3fd79f9cc506ec82d9e4bc5aec0684aa803f5ecc9e3acb462ea79808c62b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_linux_arm64.tar.gz"
-      sha256 "dc2f6be864e900b559888bac370df3f4edd2eada65da23416b80d5d6abc053c3"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.10.0/bb_2.10.0_linux_arm64.tar.gz"
+      sha256 "974b3c9e9ffeddffb9c0faecea6fc119ae1cffc074825e9d6f58386cb83ed087"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.9.1/bb_2.9.1_linux_amd64.tar.gz"
-      sha256 "46da138891f2419cf8794e4e030a7cc88bebf826be9e8ee961c9573f5bd6cce6"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v2.10.0/bb_2.10.0_linux_amd64.tar.gz"
+      sha256 "dea614abf7c769cc31898670263ca5c56a40cadc669d20753dc5b55d69e0ea4d"
     end
   end
 
