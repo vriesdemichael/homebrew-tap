@@ -1,28 +1,28 @@
 class Bb < Formula
   desc "A CLI for Bitbucket Server / Bitbucket Data Center"
   homepage "https://github.com/vriesdemichael/bitbucket-data-center-cli"
-  version "4.0.0"
+  version "4.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.0.0/bb_4.0.0_darwin_arm64_noupdate.tar.gz"
-      sha256 "9ba9a70e367e423a2d7561ada98019b757995c0884a1099bbd06d927965c9c2d"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.1.0/bb_4.1.0_darwin_arm64_noupdate.tar.gz"
+      sha256 "23679063921dd47f284cbb25290236f966a0a70b78abeb3d44ef4c3bb68624c6"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.0.0/bb_4.0.0_darwin_amd64_noupdate.tar.gz"
-      sha256 "7ce160c0f7d86168917cd944e2eed4d51f1689fcc9c2e79f36331ca92f5e8ae6"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.1.0/bb_4.1.0_darwin_amd64_noupdate.tar.gz"
+      sha256 "a0de58341db7c7da5a98e535f3964844f51caebbbbe521f3d4f0226445d7dd2e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.0.0/bb_4.0.0_linux_arm64_noupdate.tar.gz"
-      sha256 "41494039a883830bb14ca88d513739238db8cff553ccef322264256329cdb9eb"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.1.0/bb_4.1.0_linux_arm64_noupdate.tar.gz"
+      sha256 "a89da902213051f56672cfbac28e3df3207dfb217ded1b0356d4488e0ea8ff3e"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.0.0/bb_4.0.0_linux_amd64_noupdate.tar.gz"
-      sha256 "08503a80ea1c30fc23a2f2ff90aa2e8ea41d169e8970258aba86a7ec1e60a135"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v4.1.0/bb_4.1.0_linux_amd64_noupdate.tar.gz"
+      sha256 "038eeaffeefb3b8f0522f479f093147c17381ccbad56f95092c5593b67719dc0"
     end
   end
 
