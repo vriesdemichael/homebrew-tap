@@ -1,28 +1,28 @@
 class Bb < Formula
   desc "A CLI for Bitbucket Data Center"
   homepage "https://github.com/vriesdemichael/bitbucket-data-center-cli"
-  version "6.0.0"
+  version "6.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.0.0/bb_6.0.0_darwin_arm64_noupdate.tar.gz"
-      sha256 "2b6680b102f031e47d2341ceb4242d22f86a24bf4e970fc4bf599ee6b7b6e2f2"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.1.0/bb_6.1.0_darwin_arm64_noupdate.tar.gz"
+      sha256 "bc15ac8f30edb1d13632cf8ddaaec8bec36c2a35d0365f3b8fdf495102b4e632"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.0.0/bb_6.0.0_darwin_amd64_noupdate.tar.gz"
-      sha256 "4f7d0470e06e5b69890e5098fc0e4a1183cd8d0b325d0301d5e51c33feb45628"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.1.0/bb_6.1.0_darwin_amd64_noupdate.tar.gz"
+      sha256 "cc4e0c583e9e3a45ae0c59001c5a1a31e7d722c4b1f610a64f79d01aed7713ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.0.0/bb_6.0.0_linux_arm64_noupdate.tar.gz"
-      sha256 "2848ed6536a0985a05e7c3ee759dcb793d170d64f19f42dac48576441ca4a5e3"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.1.0/bb_6.1.0_linux_arm64_noupdate.tar.gz"
+      sha256 "c82ca2b1b79b2b6ec4b95fb8cd0418577ecf70ed5b4008bcf5b243038119dfa7"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.0.0/bb_6.0.0_linux_amd64_noupdate.tar.gz"
-      sha256 "193479d857e396a20d036f896bc28273caca61353b1f340fa90412dbee1d7ada"
+      url "https://github.com/vriesdemichael/bitbucket-data-center-cli/releases/download/v6.1.0/bb_6.1.0_linux_amd64_noupdate.tar.gz"
+      sha256 "2cdcc76f033c36d9d1d3cf313b0be047a978d1aca52e42208e6ac38d21df2940"
     end
   end
 
