@@ -1,28 +1,28 @@
 class MmMcp < Formula
   desc "An MCP server for Mattermost"
   homepage "https://github.com/vriesdemichael/mm-mcp"
-  version "0.4.0"
+  version "0.4.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.0/mm-mcp_0.4.0_darwin_arm64.tar.gz"
-      sha256 "fa2e587bd3bac1b5152320c06569edf16111c84ce914daf4b41a650d74746284"
+      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.1/mm-mcp_0.4.1_darwin_arm64.tar.gz"
+      sha256 "6f06b6e62efecb2408948fe10d7871d4e2fe517e6b928fd2f66294047d349cc8"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.0/mm-mcp_0.4.0_darwin_amd64.tar.gz"
-      sha256 "e95bd424dd83c1d12987f583b9fc09e7bad6967215266d45cd98e4f9e334c090"
+      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.1/mm-mcp_0.4.1_darwin_amd64.tar.gz"
+      sha256 "2986f07a082b725732015ac8818888fc9f0d1ca95c5a4041d0298dd79b008ac3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.0/mm-mcp_0.4.0_linux_arm64.tar.gz"
-      sha256 "2059c601401e2822159ece2446c23b29e16b4da38d180209cca44ef24f70930d"
+      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.1/mm-mcp_0.4.1_linux_arm64.tar.gz"
+      sha256 "77fcedfbd014216e6cf60aeb8cabf47f45b86e209bf7b7141efc1575ed6bc0d7"
     end
     on_intel do
-      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.0/mm-mcp_0.4.0_linux_amd64.tar.gz"
-      sha256 "136c62b4f5d4c10c349eea3e071be7d31b8f95ed2a5fcf8b696f8ee1bef983cf"
+      url "https://github.com/vriesdemichael/mm-mcp/releases/download/v0.4.1/mm-mcp_0.4.1_linux_amd64.tar.gz"
+      sha256 "f9d4e77b40ff2b0359fd6f263e604309f35c14bf2723dd7c4d2a1c75fcd06269"
     end
   end
 
